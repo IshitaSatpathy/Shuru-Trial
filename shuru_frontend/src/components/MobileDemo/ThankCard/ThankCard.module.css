@@ -1,0 +1,28 @@
+.cardContainer {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+}
+
+.mainText {
+    /* border: 1px solid black; */
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #0124F1;
+}
+
+.footertext {
+    /* border: 1px solid black; */
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #000;
+    margin-top: -10px;
+    margin-left: 4px;
+    margin-bottom: 25px;
+}

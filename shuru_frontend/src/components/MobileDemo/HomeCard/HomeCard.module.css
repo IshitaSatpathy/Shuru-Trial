@@ -1,0 +1,72 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+}
+
+.mainText {
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #0124F1;
+}
+
+.subText {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    margin-top: 18px;
+}
+
+.textfield {
+    font-size: 15px;
+}
+
+.emailContainer {
+
+    align-items: center;
+    margin-top: 16px;
+}
+
+.submitButton {
+    width: 100%;
+    margin-top: 8px;
+    background-color: #FBFF1A;
+    border-radius: 10px;
+    border: none;
+    color: #5E5F5E;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 40px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.emailText {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #000;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+.footertext {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #989898;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+.mail{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #989898;
+}
