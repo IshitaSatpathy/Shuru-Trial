@@ -118,7 +118,8 @@ function Centerpage() {
           <HomepageScreen10 />
         </div>
         <div id="howitworks">
-          <HomepageScreen5 />
+          {" "}
+          <HomepageScreen5 setst={setst}/>
         </div>
         <div id="benefits">
           {" "}

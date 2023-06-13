@@ -22,7 +22,12 @@ const useStyles = makeStyles({
     height: "3rem",
     "&:hover": {
       backgroundColor: "yellow",
+      
     },
+    "&:focus": {
+      backgroundColor: "yellow",
+      borderRadius: 0,
+    }
   },
   link: {
     color: "black",
@@ -89,6 +94,7 @@ function Navbar() {
         elevation={0}
         className={classes.appBar}
         style={{
+          height: "4.5rem",
           backgroundColor: "#EDEEF1",
           maxWidth: "95.75rem",
           margin: "auto",
@@ -104,6 +110,7 @@ function Navbar() {
             padding: 0,
             marginLeft: "1.8rem",
             marginRight: "1rem",
+           
           }}
         >
           <Link to="/contact" style={{ textDecoration: "none" }}>
@@ -116,7 +123,8 @@ function Navbar() {
                 width: "8rem",
                 justifyContent: "left",
                 marginLeft: "1.9rem",
-                marginTop:"2rem"
+                marginTop:"2rem",
+                marginBottom:"1rem"
               }}
               classes={{ root: classes.link }}
               href="#contactus"
@@ -140,6 +148,7 @@ function Navbar() {
               marginLeft: "35.2rem",
               width: "65.3125rem",
               height: "1.8rem",
+              marginBottom:"0.8rem"
             }}
           >
             <Paper style={{ boxShadow: "none", borderRadius: ".75rem" }}>
@@ -223,7 +232,7 @@ function Navbar() {
                     onClick={() => handleScroll("howItWorks")}
                   >
                     {" "}
-                    How it works
+                    How it works{" "}
                   </Typography>
                 </Button>
               {/* </a> */}

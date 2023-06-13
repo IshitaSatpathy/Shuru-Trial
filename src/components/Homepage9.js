@@ -162,15 +162,16 @@ As a community, we hope to be the starting point for creators and investors to b
 
                 </Typography>
               </Grid>
-              <Grid item style={{ maxWidth: "39rem", padding: 0,marginTop:'3.875rem' }}>
+              <Grid item style={{ maxWidth: "39rem", padding: 0,marginTop:'1.8rem' }}>
                 <Typography
-                  variant="h5"
+                  variant="body1"
                   style={{
                     fontFamily: "Inter",
-                    fontWeight: 500,
+                    fontWeight: 400,
                     color: "#292D32",
                   }}
                 >
+                  For partnerships or other queries, you can reach out to us at: hello@shuru.io
                 </Typography>
               </Grid>
             </Grid>
@@ -196,7 +197,7 @@ As a community, we hope to be the starting point for creators and investors to b
             <CardContent
               style={{
                 width: "100%",
-                height: "100%",
+                height: "50rem",
                 backgroundColor: "white"
               }}
             >
@@ -206,7 +207,7 @@ As a community, we hope to be the starting point for creators and investors to b
 
             <Card 
               style={{
-                height:"25%",
+                height:"23%",
                 width:"95%",
                 backgroundColor: blueGrey[50],
                 boxShadow:"none",
@@ -228,7 +229,7 @@ As a community, we hope to be the starting point for creators and investors to b
                   Design Studio
                 </Typography>
                 <Typography
-                variant="body"
+                variant="body1"
                 style={{
                   fontFamily: "Inter",
                   fontWeight: 400,
@@ -246,7 +247,7 @@ As a community, we hope to be the starting point for creators and investors to b
 
           <Card 
               style={{
-                height:"28%",
+                height:"24%",
                 width:"95%",
                 backgroundColor: blueGrey[50],
                 boxShadow:"none",
@@ -267,7 +268,7 @@ As a community, we hope to be the starting point for creators and investors to b
                   Speculative Design
                 </Typography>
                 <Typography
-                variant="body"
+                variant="body1"
                 style={{
                   fontFamily: "Inter",
                   fontWeight: 400,
@@ -275,7 +276,7 @@ As a community, we hope to be the starting point for creators and investors to b
                 }}
                 >
                   “Speculative design gives designers an opportunity to stretch their imaginations and develop new and boundary-pushing systems and prototypes for the future.”
-                  <br/>-Anthony Duane
+                  <br/>-Anthony Dunne
                 </Typography>
               </Grid>
             </Card>
@@ -292,7 +293,7 @@ As a community, we hope to be the starting point for creators and investors to b
                 marginBottom:"3rem",
                 boxShadow:"none",
                 marginLeft:"1.0rem",
-                borderRadius:"0.75rem"
+                borderRadius:"0.75rem",
               }}
             >
               <Grid item style={{ maxWidth: "35rem", padding: 0,marginTop:'2.0rem', marginLeft:'2.0rem'}}>
@@ -308,14 +309,15 @@ As a community, we hope to be the starting point for creators and investors to b
                   Calm Technology
                 </Typography>
                 <Typography
-                variant="body"
+                variant="body1"
                 style={{
                   fontFamily: "Inter",
                   fontWeight: 400,
                   color: "#292D32",
                 }}
                 >
-                  Design Fiction is a framework to explore the future. It guides us to think about the present and build towards a future we want by asking simple questions that are driven by, 'what if?'
+                  “Calm Technology is an effort to expand the awareness of how humans and computers can live in harmony. “ - Amber Case 
+Calm Technology questions all things that compete for our attention, and brings a focus on communication designed for humans.
                 </Typography>
               </Grid>
               <Card style={{
@@ -325,7 +327,7 @@ As a community, we hope to be the starting point for creators and investors to b
                 boxShadow:"none"
               }}>
 
-              </Card>
+            </Card>
             </Card>
 
            

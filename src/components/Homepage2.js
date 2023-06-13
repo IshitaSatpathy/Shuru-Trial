@@ -110,7 +110,7 @@ function HomepageScreen2() {
 
   const classes = useStyles();
   return (
-    <div className="container1" id="overview">
+    <div className="container1" id="overview" >
       <ThemeProvider theme={theme}>
         <Grid
           container
@@ -128,7 +128,7 @@ function HomepageScreen2() {
             style={{
               maxWidth: "100%",
               marginTop: "2.375rem",
-              padding: 0,
+              padding:0,
               overflowX: "hidden",
               marginBottom: 0,
             }}

@@ -87,8 +87,8 @@ function Header() {
                 color: "white",
                 backgroundColor: "#0124F1",
                 height: "3rem",
-                padding: "1rem 2rem",
-                marginRight: "1rem",
+                //padding: "1rem 2rem",
+                marginRight: "1.2rem",
               }}
               onClick={handleScrollToSubscribe}
             >

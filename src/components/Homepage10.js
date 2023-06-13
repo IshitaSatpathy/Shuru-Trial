@@ -159,7 +159,7 @@ function HomepageScreen10() {
                   height: "15rem",
                   display: "flex",
                   position: "relative",
-                  left: "3.75rem",
+                  left: "5.75rem",
                   top: "1.875rem",
                 }}
               />
@@ -168,12 +168,13 @@ function HomepageScreen10() {
                 style={{
                   display: "flex",
                   position: "relative",
-                  bottom: "7.2rem",
+                  bottom: "8rem",
                   maxWidth: "20rem",
-                  left: "7rem",
+                  left: "9rem",
                   color: "white",
                   fontFamily:"Inter",
-                  textAlign:"center"
+                  textAlign:"center",
+                  fontWeight:"500"
                 }}
               >
                 Pollinate, a startup using tiny insect-bots that replicate
@@ -189,8 +190,8 @@ function HomepageScreen10() {
                   height: "15rem",
                   display: "flex",
                   position: "relative",
-                  bottom: "3rem",
-                  left: "6.8rem",
+                  bottom: "2rem",
+                  left: "4.8rem",
                 }}
               />
               <Typography
@@ -198,12 +199,13 @@ function HomepageScreen10() {
                 style={{
                   display: "flex",
                   position: "relative",
-                  bottom: "12rem",
+                  bottom: "11rem",
                   maxWidth: "16rem",
-                  left: "10rem",
+                  left: "8rem",
                   color: "white",
                   fontFamily:"Inter",
-                  textAlign:"center"
+                  textAlign:"center",
+                  fontWeight:"500"
                 }}
               >
                 Alina is an AI designer who offers advice and ideas sustainable
@@ -215,12 +217,12 @@ function HomepageScreen10() {
               <img
                 src={badal5}
                 style={{
-                  width: "23rem",
+                  width: "21.5rem",
                   height: "15rem",
                   diplay: "flex",
                   position: "relative",
-                  left: "0.938rem",
-                  top: "4rem",
+                  left: "0rem",
+                  top: "5rem",
                 }}
               />
               <Typography
@@ -228,16 +230,17 @@ function HomepageScreen10() {
                 style={{
                   display: "flex",
                   position: "relative",
-                  bottom: "6.3rem",
+                  bottom: "6rem",
                   maxWidth: "11rem",
-                  left: "7rem",
+                  left: "5.2rem",
                   color: "white",
                   fontFamily:"Inter",
-                  textAlign:"center"
+                  textAlign:"center",
+                  fontWeight:"500"
                 }}
               >
                 An AI trained on the U.S. Constitution of rights. What’s your
-                AI?
+                AI agenda?
               </Typography>
             </Grid>
 
@@ -249,7 +252,7 @@ function HomepageScreen10() {
                   height: "15rem",
                   display: "flex",
                   position: "relative",
-                  top: "2rem",
+                  top: "0rem",
                   left: "3rem",
                 }}
               />
@@ -258,11 +261,12 @@ function HomepageScreen10() {
                 style={{
                   display: "flex",
                   position: "relative",
-                  bottom: "8.25rem",
+                  bottom: "10.2rem",
                   maxWidth: "15rem",
                   left: "8.5rem",
                   fontFamily:"Inter",
-                  textAlign:"center"
+                  textAlign:"center",
+                  fontWeight:"500"
                 }}
               >
                 Solein, a protein-rich food spun out of thin air using a
@@ -278,7 +282,7 @@ function HomepageScreen10() {
                   height: "18rem",
                   display: "flex",
                   position: "relative",
-                  bottom: "8rem",
+                  bottom: "7rem",
                   left: "0.5rem",
                 }}
               />
@@ -288,12 +292,13 @@ function HomepageScreen10() {
                 style={{
                   display: "flex",
                   position: "relative",
-                  bottom: "19.7rem",
+                  bottom: "19.2rem",
                   maxWidth: "17rem",
-                  left: "6.5rem",
+                  left: "6.2rem",
                   color: "white",
                   fontFamily:"Inter",
-                  textAlign:"center"
+                  textAlign:"center",
+                  fontWeight:"500"
                 }}
               >
                 Worldcoin, a global currency for universal basic income.
@@ -304,12 +309,12 @@ function HomepageScreen10() {
               <img
                 src={badal3}
                 style={{
-                  width: "28rem",
-                  height: "16rem",
+                  width: "22rem",
+                  height: "13rem",
                   display: "flex",
                   position: "relative",
-                  top: "-2rem",
-                  right: "0.5rem",
+                  top: "1rem",
+                  right: "3rem",
                 }}
               />
 
@@ -318,12 +323,13 @@ function HomepageScreen10() {
                 style={{
                   display: "flex",
                   position: "relative",
-                  bottom: "10rem",
+                  bottom: "6rem",
                   maxWidth: "15rem",
-                  left: "5.5rem",
+                  left: "0.5rem",
                   color: "black",
                   fontFamily:"Inter",
-                  textAlign:"center"
+                  textAlign:"center",
+                  fontWeight:"500"
                 }}
               >
                 “Sports League” Don’t bet, make an investment. A stock market,
@@ -332,8 +338,8 @@ function HomepageScreen10() {
               <Link style={{
                 display:"flex",
                 position:"relative",
-                bottom:"6rem",
-                left:"19.8rem",
+                bottom:"3rem",
+                left:"17rem",
                 color:"black",
                 fontFamily:"Inter",
                 fontWeight:"500"
@@ -342,8 +348,8 @@ function HomepageScreen10() {
               >Read More</Link><EastIcon style={{
                 display:"flex",
                 position:"relative",
-                bottom:"7.35rem",
-                left:"25rem"
+                bottom:"4.4rem",
+                left:"22.5rem"
               }}/>
             </Grid>
           </Grid>

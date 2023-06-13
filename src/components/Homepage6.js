@@ -187,7 +187,8 @@ props.setst(1)
                     fontWeight: 800,
                     marginTop: "2.5rem",
                     marginLeft: "3.125rem",
-                    color:"#292D32"
+                    color:"#292D32",
+                    cursor:"pointer"
                   }}
                 >
                   Creators
@@ -200,7 +201,8 @@ props.setst(1)
                     fontWeight: 500,
                     marginTop: "2.5rem",
                     marginLeft: "3.125rem",
-                    color:"#292D32"
+                    color:"#292D32",
+                    cursor:"pointer"
                   }}
                 >
                   Investors
@@ -430,7 +432,8 @@ props.setst(1)
                     fontWeight: 500,
                     marginTop: "2.5rem",
                     marginLeft: "3.125rem",
-                    color:"#292D32"
+                    color:"#292D32",
+                    cursor:"pointer"
                   }}
                 >
                   Creators
@@ -443,7 +446,8 @@ props.setst(1)
                     fontWeight: 800,
                     marginTop: "2.5rem",
                     marginLeft: "3.125rem",
-                    color:"#292D32"
+                    color:"#292D32",
+                    cursor:"pointer"
                   }}
                 >
                   Investors
