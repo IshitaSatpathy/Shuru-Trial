@@ -164,55 +164,96 @@ function HomepageScreen4() {
             </div>
             <CardContent
               style={{
-                width: "50%",
+                width: "40rem",
                 height: "84.4%",
                 padding: "3.5rem",
                
               }}
             >
               <div>
-                <Typography
-                  variant="h4"
-                  style={{ width:'9rem',fontFamily:'Inter',fontWeight:800,color:'#292D32' }}
-                  gutterBottom
-                >
-                   1
-                </Typography>
-                <Typography
-                  variant="body1"
-                  style={{ marginBottom: "2.2rem", marginRight: "10rem",fontFamily:'Inter',fontWeight:400,color:'#727376' }}
-                  gutterBottom
-                >
-                  From an idea to a working prototype, Shuru helps you find your community of supporters along the way. 
-                </Typography>
-                <Typography
-                  variant="h4"
-                  style={{ width:'9rem',fontFamily:'Inter',fontWeight:800,color:'#292D32' }}
-                  gutterBottom
-                >
-                 2
-                </Typography>
-                <Typography
-                  variant="body1"
-                  style={{ marginBottom: "2.2rem", marginRight: "10rem",fontFamily:'Inter',fontWeight:400,color:'#727376' }}
-                  gutterBottom
-                >
-                  Investors can connect with creators when they are ready to commit funds.
-                </Typography>
-                <Typography
-                  variant="h4"
-                  style={{ width:'9rem',fontFamily:'Inter',fontWeight:800,color:'#292D32' }}
-                  gutterBottom
-                >
-                  3
-                </Typography>
-                <Typography
-                  variant="body1"
-                  style={{ marginBottom: "2.2rem", marginRight: "10rem",fontFamily:'Inter',fontWeight:400,color:'#727376' }}
-                  gutterBottom
-                >
-                  An open-source community that uses voting, and other tools to foster conversations, collective thinking and invest in proposals.
-                </Typography>
+              <div style={{
+                  diplay:"flex",
+                  position:"relative",
+                  top:"2rem"
+                }}>
+                
+                    <Avatar
+                      variant="circular"
+                      style={{
+                        display:"flex",
+                        position: "relative",
+                        backgroundColor: "blue",
+                        color: "white",
+                        top:"2rem"
+                      }}
+                    ><Typography variant='body1' style={{fontFamily:'Inter',fontWeight:800}}>
+                      01</Typography>
+                    </Avatar>
+                    <Typography
+                      variant="h5"
+                      style={{fontFamily:'Inter',fontWeight:500,color:'#292D32', diplay:"flex",position:"relative",left:"4rem",bottom:"1rem",width:"36rem"  }}
+                    >
+                      From an idea to a working prototype, Shuru helps you find your community of supporters along the way. 
+                    </Typography>
+
+                    </div>
+
+
+                {/* 2nd point */}
+
+                <div style={{
+                  diplay:"flex",
+                  position:"relative",
+                  top:"2.5rem"
+                }}>
+
+                <Avatar
+                      variant="circular"
+                      style={{
+                        display:"flex",
+                        position: "relative",
+                        backgroundColor: "blue",
+                        color: "white",
+                        top:"2rem"
+                      }}
+                    ><Typography variant='body1' style={{fontFamily:'Inter',fontWeight:800}}>
+                      02</Typography>
+                    </Avatar>
+                    <Typography
+                      variant="h5"
+                      style={{fontFamily:'Inter',fontWeight:500,color:'#292D32', diplay:"flex",position:"relative",left:"4rem",bottom:"1rem",width:"36rem"  }}
+                    >
+                      Investors can connect with creators when they are ready to commit funds. 
+                    </Typography>
+                    </div>
+
+
+                      {/* 3rd point */}
+
+                  <div style={{
+                  diplay:"flex",
+                  position:"relative",
+                  top:"4.5rem"
+                }}>    
+                  <Avatar
+                      variant="circular"
+                      style={{
+                        display:"flex",
+                        position: "relative",
+                        backgroundColor: "blue",
+                        color: "white",
+                        top:"2rem"
+                      }}
+                    ><Typography variant='body1' style={{fontFamily:'Inter',fontWeight:800}}>
+                      03</Typography>
+                    </Avatar>
+                    <Typography
+                      variant="h5"
+                      style={{fontFamily:'Inter',fontWeight:500,color:'#292D32', diplay:"flex",position:"relative",left:"4rem",bottom:"1rem",width:"36rem"  }}
+                    >
+                      An open-source community that uses voting, and other tools to foster conversations, collective thinking and invest in proposals. 
+                    </Typography>
+                    </div>
               </div>
             </CardContent>
           </Card>

@@ -10,6 +10,7 @@ import {
   Typography,
   Avatar,
   TextField,
+  Modal
 } from "@material-ui/core";
 import Header from "./Header";
 import Navbar from "./Navbar";

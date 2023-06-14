@@ -107,7 +107,10 @@ function HomepageScreen2() {
         "https://s3-alpha-sig.figma.com/img/d8a1/a04c/d29e41f55d3b4d2df60cd0b0b1861730?Expires=1685318400&Signature=MlvV53NOhXbzSgQyAq~jlJoDbdBuhE~BX2zah7jbMowRxMiLNAnKfOq5FDA3lkEwLcWLvSh-ewKWpdV2odq6PqxLEoRXS8eFMM~h8ikAmQURdRSb1B4II0w72-TOML~e0k82pkyURi~prLwyHzvqjgD8V8bF6fs8zgnR3drNCoc6ZE5AQ7v95w9nfai1WtRwh4kwrp599dRw4psdzR39~vnRof7DFKGcYiFA9NI23kIp4gZ-c4sRf7azzaVgZAneB9PQ9zGfsNKCQjBFbvJk7LVbIgSFRf0M7NPYViU48nnR4y2PQ-fYGNwKorVtcXKP9GxqEeYlP21plxohZSwm9g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     },
   ];
-
+  const handleScroll = (id) => {
+    const section = document.getElementById(id);
+    section.scrollIntoView({ behavior: 'smooth',duration: 2000 });
+  };
   const classes = useStyles();
   return (
     <div className="container1" id="overview" >
@@ -366,7 +369,7 @@ function HomepageScreen2() {
               marginBottom: "7rem",
             }}
           >
-            <a href="#press" style={{ textDecoration: "none" }}>
+            {/* <a href="#press" style={{ textDecoration: "none" }}> */}
               <Button
                 color="inherit"
                 style={{
@@ -384,6 +387,7 @@ function HomepageScreen2() {
                     top:"1rem",
                     left:"0.2rem"
                 }}
+                onClick={() => handleScroll("explore")}
               >
                 <Typography
                   variant="body1"
@@ -400,7 +404,7 @@ function HomepageScreen2() {
                 &nbsp;
                 <EastIcon color="white;" />
               </Button>
-            </a>
+            {/* </a> */}
             {/* <Button
               color="inherit"
               style={{ textTransform: "none", fontWeight: "bold" }}

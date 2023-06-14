@@ -335,22 +335,34 @@ function HomepageScreen10() {
                 “Sports League” Don’t bet, make an investment. A stock market,
                 for sports.
               </Typography>
-              <Link style={{
-                display:"flex",
-                position:"relative",
-                bottom:"3rem",
-                left:"17rem",
-                color:"black",
-                fontFamily:"Inter",
-                fontWeight:"500"
-              }}
-              to={"/comingsoon"}
-              >Read More</Link><EastIcon style={{
-                display:"flex",
-                position:"relative",
-                bottom:"4.4rem",
-                left:"22.5rem"
-              }}/>
+              <Link to="/comingsoon" style={{ textDecoration:"none"}}>
+              <Button style={{
+                backgroundColor:"#292D32",
+                textTransform: "capitalize",
+                  borderRadius: "0.75rem",
+                  color: "white",
+                  fontWeight: "bold",
+                  width:"10rem",
+                  height:"3rem",
+                  display:"flex",
+                  position:"relative",
+                  left:"18rem",
+                  
+                  
+              }} >
+                <Typography style={{
+                  color:"white",
+                  fontFamily:"Inter",
+                  fontWeight:"600",
+                  marginLeft:"0.5rem",         
+                }}>
+                  Read More
+                </Typography>
+                <EastIcon style={{
+                  color:"white"
+                }} />
+              </Button>
+              </Link>
             </Grid>
           </Grid>
 
