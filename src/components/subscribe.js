@@ -153,7 +153,7 @@ function Subscribe() {
             <b>Subscribe to Shuru, <br/> your community.</b>
           </Typography>
           <Typography variant="body1" style={{display:"flex",position:"relative",left:"17.5rem",bottom:"3rem"}}>
-            No Spam emails. We'll only notify you when we are ready.
+            No spam emails. We'll only notify you when we are ready.
           </Typography>
 
           <TextField
